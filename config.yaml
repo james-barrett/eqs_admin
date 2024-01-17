@@ -1,0 +1,30 @@
+# set USER or MANAGER
+operation_mode: 'USER'
+
+# minimum accepted address match score
+address_minimum_score: '0.50'
+
+# works in manager mode only
+address_low_score_email_eqs: 'NO'
+
+# move successfully processed certificate to tgp locations
+move_successfully_processed_to_tgp: 'YES'
+tgp_eh_file_path: ''
+tgp_fwt_file_path: ''
+tgp_rr_file_path: ''
+tgp_unsat_file_path: ''
+
+# move successfully processed certificates to gp backup location
+move_successfully_processed_to_gp: 'YES'
+gp_unsat_file_path: ''
+gp_cert_file_path: ''
+
+# save a copy of the accuserv fwt log file for future lookups
+gp_eqs_fwt_logs_file_path: ''
+
+# remove processed files
+remove_from_processed_on_completion: 'YES'
+
+# set eqs name who runs this copy of software
+eqs_name: 'James Barrett'
+
